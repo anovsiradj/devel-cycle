@@ -1,13 +1,13 @@
 
 paling tidak pelajari dulu cara pake git,
-entah dari AI atau dari [panduan langsung](https://git-scm.com/docs),
+entah dari AI atau dari [panduan resmi](https://git-scm.com/docs),
 jangan cuma tau cara pull dan push aja.
 
 pemahaman yang harus dipahami adalah sinkron(pull,push,merge,rebase),branch.
 
 # clone
 
-harus selalu pakai SSH, lebih mudah dan murah.
+harus selalu pakai SSH, lebih efektif.
 
 # pull dan push
 

@@ -7,24 +7,51 @@ disebut "ternari" karena menggunakan tiga bagian (operan): kondisi, nilai jika b
 
 ---
 
-jelek
+### jelek: karena susah dibaca
+
 ```js
 return id ? route(
 	'very.long.name.route', id
 ) : '#'
 ```
 
-bagus
+### bagus: karena pendek dan bisa dibaca
 ```js
+// pakai function untuk taruh result
 var href = id => route('very.long.name.route', id)
 return id ? href(id) : '#'
 ```
 
-bagus
+### bagus: tidak pakai ternary
 ```js
+// pakai var untuk taruh value
 var href = '#'
 if (id) {
 	href = route('very.long.name.route', id)
 }
 return href
+```
+
+# nested ternary
+
+tidak masalah, selama pengkondision konsisten dan sudah divariabelkan.
+atau menggunakan if-else (dengan early return atau tanpa early return).
+
+
+```js
+var a = true
+var b = true
+var c = false
+
+return a && b && !c ? 'ya' : 'tidak'
+```
+
+```js
+var a = true
+var b = true
+var c = false
+
+if (!c) return 'tidak'
+if (!a || !b) return 'tidak'
+return 'ya'
 ```
