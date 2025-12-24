@@ -17,4 +17,4 @@ sebelum push, diff pada skrip harus dibiasakan untuk selalu diulas secara mandir
 
 # stash
 
-kalo takut konflik, di stash aja.
+kalo kamu takut terjadi konflik, di stash aja.
