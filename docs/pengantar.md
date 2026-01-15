@@ -1,4 +1,3 @@
-```
 # Pengantar
 
 Selamat datang di panduan pengembangan **Devel Cycle**.
@@ -10,7 +9,9 @@ Panduan ini adalah bentuk realisasi dari visi *"The Unbrokenable Webapp Saga"*. 
 
 ## Tujuan
 Tujuan utama panduan ini adalah memberikan arah yang jelas dalam:
-1. Menulis kode yang lebih baik dan terstruktur.
+1. Menulis kode yang terstruktur
+1. Menulis kode yang konsisten (reusable/boilerplate)
+1. Menulis kode yang meringankan mental
 2. Membangun aplikasi dengan fondasi yang kuat.
 3. Menetapkan standar baku untuk proses pengembangan.
 
@@ -19,4 +20,3 @@ Dokumentasi ini menggunakan Bahasa Indonesia sebagai pengantar utama, dengan cam
 
 ---
 > *"Realisasi untuk: [The Unbrokenable Webapp Saga](https://ne-a-r.blogspot.com/2018/09/the-unbrokenable-webapp-saga.html)"*
-```

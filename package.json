@@ -1,0 +1,31 @@
+{
+  "name": "devel-cycle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anovsiradj/devel-cycle.git"
+  },
+  "keywords": [],
+  "author": "anovsiradj <anov.siradj22@gmail.com> (https://rorirur.id/)",
+  "license": "proprietary",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/anovsiradj/devel-cycle/issues"
+  },
+  "homepage": "https://github.com/anovsiradj/devel-cycle#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.8",
+    "jquery": "^3.7.1",
+    "less": "^4.5.1",
+    "vite": "^7.3.0"
+  }
+}
